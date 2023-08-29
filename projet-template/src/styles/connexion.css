@@ -1,0 +1,50 @@
+.connexion {
+    position: relative;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    padding: 5rem 4rem 1rem !important;
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    background-color: rgb(8, 104, 125) !important;
+    margin: 50px auto;
+    color: white;
+}
+
+.connexion input:focus {
+    /* outline-color: rgb(10, 72, 86); */
+    /* outline-color: rgb(255, 255, 255); */
+    outline: none;
+}
+
+.connexionButtons {
+    bottom: 3rem !important;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connexionButtons button {
+    width: 125px;
+    color: rgb(10, 57, 86);
+}
+
+.displayed {
+    display: none;
+}
+
+.submit {
+    width: 100%;
+}
+
+#bigLabel {
+    margin-bottom: 20px !important;
+}
+
+.red {
+    text-align: center;
+    color: rgb(205, 25, 25);
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(220, 234, 246);
+    border-radius: 3px;
+}

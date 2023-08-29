@@ -1,0 +1,61 @@
+{
+  "mails": [
+    {
+      "id": 1,
+      "label": "json-server",
+      "reason": "typicode",
+      "is_mail_going": true,
+      "mail_type_id": 1
+    },
+    {
+      "id": 1,
+      "label": "json-server",
+      "reason": "typicode",
+      "is_mail_going": false,
+      "mail_type_id": 1
+    },
+    {
+      "label": "json-server",
+      "reason": "typicode",
+      "is_mail_going": false,
+      "mail_type_id": 1,
+      "id": 2
+    },
+    {
+      "label": "json-server",
+      "reason": "typicode",
+      "is_mail_going": false,
+      "mail_type_id": 1,
+      "id": 3
+    }
+  ],
+  "incoming_mails": [
+    {
+      "id": 1,
+      "sender_name": "json-server",
+      "sender_email": "typicode",
+      "redirect_to_userID": false,
+      "mail_type_id": 1
+    }
+  ],
+  "outgoing_mails": [
+    {
+      "id": 1,
+      "receiver_name": "json-server",
+      "receiver_mail": "typicode",
+      "coming_from_userID": false,
+      "mail_type_id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "joel@mail.com",
+      "password": "$2a$10$hR1/l4owSnyNa6djawuOFOonMsvU8doeL933Mm.cMXE9AqwzfFI7S",
+      "id": 1
+    }
+  ],
+  "superuser": {
+    "username": "admin",
+    "email": "admin"
+  }
+}

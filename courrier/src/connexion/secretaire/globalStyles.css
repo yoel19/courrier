@@ -1,0 +1,9 @@
+.inputGlobal {
+    transform: scaleY(1.2) !important;
+}
+
+.textareaGlobal {
+    margin-top: 15px;
+    margin-bottom: 35px !important;
+    transform: scaleY(1.5) !important;
+}

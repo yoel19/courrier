@@ -1,0 +1,63 @@
+{
+    "incoming_mails": [
+        {
+            "id": 1,
+            "mail": {
+                "label": "Facture de la base de CIMENTS",
+                "reason": "Anim deserunt in dolor deserunt incididunt qui eiusmod deserunt sit est laboris ex sunt. Amet occaecat mollit id sint eu esse veniam incididunt eiusmod minim sint. Consectetur aliqua culpa ut laboris voluptate in nisi sit quis consequat. Deserunt dolor excepteur veniam adipisicing nisi consequat labore exercitation quis."
+            },
+            "sender": {
+                "name": "Solo Macon",
+                "email": "solo@mail.com"
+            },
+            "type_mail": "FACTURE",
+            "redirect_to_userID": 3
+        },
+        {
+            "id": 2,
+            "mail": {
+                "label": "Recu de Payement d'ASSURANCE",
+                "reason": "Esse occaecat ut ea incididunt voluptate ipsum ut enim amet. Pariatur eu officia irure est fugiat duis proident ex. Fugiat veniam nisi exercitation mollit cupidatat cupidatat irure ea deserunt cillum non minim commodo."
+            },
+            "sender": {
+                "name": "SUNU Assurance",
+                "email": "contacts@sunuassurance.com"
+            },
+            "type_mail": "RECU DE PAYEMENT",
+            "redirect_to_userID": 1
+        }
+    ],
+    "outgoing_mails": [
+        {
+            "id": 1,
+            "mail": {
+                "label": "Facture de la base de CIMENTS",
+                "reason": "Anim deserunt in dolor deserunt incididunt qui eiusmod deserunt sit est laboris ex sunt. Amet occaecat mollit id sint eu esse veniam incididunt eiusmod minim sint. Consectetur aliqua culpa ut laboris voluptate in nisi sit quis consequat. Deserunt dolor excepteur veniam adipisicing nisi consequat labore exercitation quis."
+            },
+            "receiver": {
+                "name": "Solo Macon",
+                "email": "solo@mail.com"
+            },
+            "type_mail": "FACTURE",
+            "sending_by_userID": 3
+        },
+        {
+            "id": 2,
+            "mail": {
+                "label": "Recu de Payement d'ASSURANCE",
+                "reason": "Esse occaecat ut ea incididunt voluptate ipsum ut enim amet. Pariatur eu officia irure est fugiat duis proident ex. Fugiat veniam nisi exercitation mollit cupidatat cupidatat irure ea deserunt cillum non minim commodo."
+            },
+            "receiver": {
+                "name": "SUNU Assurance",
+                "email": "contacts@sunuassurance.com"
+            },
+            "type_mail": "RECU DE PAYEMENT",
+            "sending_by_userID": 1
+        }
+    ],
+    "users": [],
+    "superuser": {
+        "username": "admin",
+        "email": "admin"
+    }
+}
